@@ -341,8 +341,8 @@ html,body{
 }
 /* .single-slide-item */
 .single-slide-item {
-    padding-top: 184px;
-    padding-bottom:294px;
+    padding-top: 360px;
+    padding-bottom:419px;
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -394,16 +394,21 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../assets/images/home/buenosaires1|.jpg);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/banner2.jpg);
+	background-image:url(../../assets/images/home/buenosaires2.jpeg);
 	position:relative;
 	z-index:1;
 }
-.single-slide-item.slide-1:before,.single-slide-item.slide-2:before{
+.single-slide-item.slide-3 {
+	background-image:url(../../assets/images/home/buenosaires3.jpeg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before{
 	background:rgba(115,112,215,.6);
 	position:absolute;
 	left:0;
@@ -507,7 +512,7 @@ html,body{
 		4. We-do
 --------------------------------------*/
 .we-do{
-	padding: 115px 0 82px;
+	padding: 100px 0 82px;
 }
 
 /* section-header */
