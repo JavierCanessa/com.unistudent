@@ -204,7 +204,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin-top: 12px;
 	padding:0;
 }/* navbar-brand */
 
@@ -218,8 +218,7 @@ html,body{
 /* sticky */
 .sticky{
 	background: rgba(115,112,216,1);
-	padding: 10px 0px 0px;
-	height:80px;
+	padding: 0px 0px 22px;
 	color: #fff;
 }
 
@@ -639,6 +638,8 @@ html,body{
 	position: relative;
 	box-shadow: 0 10px 30px rgba(112,134,230,.2);
 	z-index: 1;
+	border-radius: 150px;
+
 }
 .about-us-img:before{
 	position: absolute;
