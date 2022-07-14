@@ -393,21 +393,21 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/buenosaires1.png);
+	background-image:url(../../assets/images/banner/foto1.png);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/buenosaires2.png);
+	background-image:url(../../assets/images/banner/foto2.png);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-3 {
-	background-image:url(../../assets/images/banner/buenosaires3.png);
+	background-image:url(../../assets/images/banner/foto3.png);
 	position:relative;
 	z-index:1;
 }
-.single-slide-item.slide-1:before,.single-slide-item.slide-2:before, .single-slide-item.slide-3:before{
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before{
 	background:rgba(115,112,215,.6);
 	position:absolute;
 	left:0;
