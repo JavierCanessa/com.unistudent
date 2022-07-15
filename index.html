@@ -90,8 +90,11 @@
     </head>
 	
 	<body>
-		
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
+		
 		<!--menu start-->
 	<section id="menu">
 		<div class="container">
@@ -108,11 +111,9 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="index.html">
-							
-							<img style="width: 250px;height: 50px;"
-								src="assets/images/logo/unistudent_logo_102x23-01.svg" alt="logo">
+							<img style="width: 250px;height: 50px;;"
+								src="assets/images/logo/unistudent_logo_blanco_102x23-01.svg" alt="logo">
 							<!-- <h3 style="color: white;">LOGO</h3> -->
-						
 						</a>
 					</div>
 					<!--/.navbar-header -->
@@ -135,7 +136,9 @@
 	</section>
 	<!--/#menu-->
 	<!--menu end-->
-
+		
+	
+	
 	<!-- header-slider-area start -->
 	<section class="header-slider-area">
 		<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
@@ -199,7 +202,9 @@
 
 	</section><!-- /.header-slider-area-->
 	<!-- header-slider-area end -->
-
+		
+		
+		
 	<!--about-us start -->
 	<section id="Nosotros" class="about-us">
 		<div class="container">
@@ -212,7 +217,7 @@
 					<div class="col-sm-6">
 						<div class="single-about-us">
 							<div class="about-us-img">
-								<img style="border-radius: 160px;" src="assets/images/about/Gael1.jpg"
+								<img style="border-radius: 160px;" src="assets/images/about/Gael.jpg"
 									alt="about images">
 							</div>
 							<!--/.about-us-img-->
@@ -249,7 +254,7 @@
 					<div class="col-sm-6">
 						<div class="single-about-us">
 							<div class="about-us-img">
-								<img style="border-radius: 130px;" src="assets/images/about/Gael1.jpg"
+								<img style="border-radius: 130px;" src="assets/images/about/about-part.jpg"
 									alt="about images">
 							</div>
 							<!--/.about-us-img-->
@@ -288,8 +293,7 @@
 	</section>
 	<!--/.about-us-->
 	<!--about-us end -->
-
-
+		
 
 
 	<!--Servicios -->
@@ -397,85 +401,108 @@
 			</div>
 	</section>
 <!--Servicios END-->
+		
+
+
+<!--contact start-->
+<section id="Contacto"  class="contact">
+	<div class="container">
+		<div class="contact-details">
+			<div class="section-header contact-head  text-center">
+				<h2>Contactanos</h2>
+				<p>
+					Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+				</p>
+			</div><!--/.section-header-->
+			<div class="contact-content">
+
+
+				<div class="contact-form">
+					<form action="mailto:javierfreddycanessa93@gmail.com" method="post" enctype="text/plain">
+						<div class="row">
+							<div class="col-sm-6 col-xs-12">
+								<div class="form-group">
+								  <input type="text" class="form-control" id="firstname" placeholder="Nombre" name="firstname">
+								</div><!--/.form-group-->
+							</div><!--/.col-->
+							<div class="col-sm-6 col-xs-12">
+								<div class="form-group">
+								  <input type="text" class="form-control" id="lastname" placeholder="Apellido" name="laststname">
+								</div><!--/.form-group-->
+							</div><!--/.col-->
+						</div><!--/.row-->
+						<div class="row">
+							<div class="col-sm-6 col-xs-12">
+								<div class="form-group">
+									<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+								</div><!--/.form-group-->
+							</div><!--/.col-->
+							<div class="col-sm-6 col-xs-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="phone" placeholder="Telefono" name="phone">
+								</div><!--/.form-group-->
+							</div><!--/.col-->
+						</div><!--/.row-->
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<textarea class="form-control" rows="7" id="comment" placeholder="Mensaje" ></textarea>
+								</div><!--/.form-group-->
+							</div><!--/.col-->
+						</div><!--/.row-->
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="single-contact-btn pull-right">
+									<button class="contact-btn" type="button">send message</button>
+								</div><!--/.single-single-contact-btn-->
+							</div><!--/.col-->
+						</div><!--/.row-->
+					</form><!--/form-->
+				</div><!--/.contact-form-->
 
 
 
-	<!--contact start-->
-	<section id="Contacto"  class="contact">
-		<div class="container">
-			<div class="contact-details">
-				<div class="section-header contact-head  text-center">
-					<h2>Contactanos</h2>
-					<p>
-						Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					</p>
-				</div><!--/.section-header-->
-				<div class="contact-content">
-					<div class="contact-form">
-						<!-- <h3>Escribenos</h3> -->
-						<form>
-							<div class="row">
-								<div class="col-sm-6 col-xs-12">
-									<div class="form-group">
-									  <input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname">
-									</div><!--/.form-group-->
-								</div><!--/.col-->
-								<div class="col-sm-6 col-xs-12">
-									<div class="form-group">
-									  <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="laststname">
-									</div><!--/.form-group-->
-								</div><!--/.col-->
-							</div><!--/.row-->
-							<div class="row">
-								<div class="col-sm-6 col-xs-12">
-									<div class="form-group">
-										<input type="email" class="form-control" id="email" placeholder="Email" name="email">
-									</div><!--/.form-group-->
-								</div><!--/.col-->
-								<div class="col-sm-6 col-xs-12">
-									<div class="form-group">
-										<input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
-									</div><!--/.form-group-->
-								</div><!--/.col-->
-							</div><!--/.row-->
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="form-group">
-										<textarea class="form-control" rows="7" id="comment" placeholder="Message" ></textarea>
-									</div><!--/.form-group-->
-								</div><!--/.col-->
-							</div><!--/.row-->
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="single-contact-btn pull-right">
-										<button class="contact-btn" type="button">send message</button>
-									</div><!--/.single-single-contact-btn-->
-								</div><!--/.col-->
-							</div><!--/.row-->
-						</form><!--/form-->
-					</div><!--/.contact-form-->
+				<div class="contact-office-address">
+					<h3>social partner</h3>
+					<div class="contact-icon">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--/li-->
+						</ul><!--/ul-->
+					</div><!--/.contact-icon-->
+				</div><!--/.contact-office-address-->
 
 
-					<div class="contact-office-address">
-						<h3>social partner</h3>
-						<div class="contact-icon">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
-								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li><!--/li-->
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><!--/li-->
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--/li-->
-							</ul><!--/ul-->
-						</div><!--/.contact-icon-->
-					</div><!--/.contact-office-address-->
+				
+			</div><!--/.contact-content-->
+		</div><!--/.contact-details-->
+	</div><!--/.container-->
+
+</section><!--/.contact-->
+		
+		 
 
 
-					
-				</div><!--/.contact-content-->
-			</div><!--/.contact-details-->
-		</div><!--/.container-->
 
-	</section><!--/.contact-->
+		<!-- jaquery link -->
 
+		<script src="assets/js/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        
+        <!--modernizr.min.js-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		
+		<!--bootstrap.min.js-->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- for manu -->
+		<script src="assets/js/jquery.hc-sticky.min.js" type="text/javascript"></script>
 
 
 

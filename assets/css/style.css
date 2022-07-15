@@ -407,7 +407,7 @@ html,body{
 	position:relative;
 	z-index:1;
 }
-.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before{
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3{
 	background:rgba(115,112,215,.6);
 	position:absolute;
 	left:0;
