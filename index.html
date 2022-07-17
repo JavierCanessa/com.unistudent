@@ -386,36 +386,27 @@
 		<div class="contact-details">
 			<div class="section-header contact-head  text-center">
 				<h2>Contactanos</h2>
-				<p>
-					AQUI VAN LAS REDES SOCIALES 
-				</p>
+				
 			</div><!--/.section-header-->
 			<div class="contact-content">
 
 
 				<div class="contact-form">
-					<form id="form" action="mailto:javierfreddycanessa93@gmail.com" method="post" enctype="text/plain">
+					<form id="form" action="" method="post" enctype="text/plain">
 						<div class="row">
-							<div class="col-sm-6 col-xs-12">
+							<div class="col-sm-4 col-xs-12">
 								<div class="form-group">
-								  <input type="text" class="form-control" id="firstname" placeholder="Nombre" name="firstname">
+								  <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
 								</div><!--/.form-group-->
 							</div><!--/.col-->
-							<div class="col-sm-6 col-xs-12">
-								<div class="form-group">
-								  <input type="text" class="form-control" id="lastname" placeholder="Apellido" name="laststname">
-								</div><!--/.form-group-->
-							</div><!--/.col-->
-						</div><!--/.row-->
-						<div class="row">
-							<div class="col-sm-6 col-xs-12">
+							<div class="col-sm-4 col-xs-12">
 								<div class="form-group">
 									<input type="email" class="form-control" id="email" placeholder="Email" name="email">
 								</div><!--/.form-group-->
 							</div><!--/.col-->
-							<div class="col-sm-6 col-xs-12">
+							<div class="col-sm-4 col-xs-12">
 								<div class="form-group">
-									<select name="pais">
+									<!-- <select name="pais">
 										<option value="AF">Afganistán</option>
 										<option value="AL">Albania</option>
 										<option value="DE">Alemania</option>
@@ -650,29 +641,47 @@
 										<option value="YU">Yugoslavia</option>
 										<option value="ZM">Zambia</option>
 										<option value="ZW">Zimbabue</option>
-										</select>
-									<!-- <input type="text" class="form-control" id="phone" placeholder="Pais" name="Pais"> -->
-								</div><!--/.form-group-->
+										<input type="text" class="form-control" id="phone" placeholder="Pais" name="Pais">
+										</select> -->
+										<input type="pais" class="form-control" id="pais" placeholder="Pais" name="pais">
+									</div><!--/.form-group-->
 							</div><!--/.col-->
 						</div><!--/.row-->
+						
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="form-group">
-									<textarea class="form-control" rows="7" id="comment" placeholder="Mensaje" ></textarea>
+									<textarea class="form-control" rows="7" id="comment" placeholder="Mensaje" name="mensaje" ></textarea>
 								</div><!--/.form-group-->
 							</div><!--/.col-->
 						</div><!--/.row-->
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="single-contact-btn pull-right">
+								<div class="single-contact-btn pull-right">			
 									<button type="submit" class="contact-btn" type="button">Enviar Mensaje</button>
+									<a id="linkmail" href="mailto:javierfreddycanessa@gmail.com" style="opacity:0 ;"></a>
 								</div><!--/.single-single-contact-btn-->
 							</div><!--/.col-->
 						</div><!--/.row-->
 					</form><!--/form-->
 				</div><!--/.contact-form-->
 
+				<script>
+					const $form = document.querySelector('#form')
+					const $buttonMailTo = document.querySelector('#linkmail')
 
+
+					$form.addEventListener('submit', handleSubmit)
+
+					function handleSubmit(event){
+						event.preventDefault()
+						const form = new FormData(this)
+						console.log(form.get('nombre'))
+						$buttonMailTo.setAttribute('href',`mailto:javierfreddycanessa93@gmail.com?subject=${form.get(`nombre`)} &body=${form.get(`mensaje`)}${form.get(`email`)}` )
+						$buttonMailTo.click()
+					}
+
+				</script>
 
 				<div class="contact-office-address">
 					<h3>social partner</h3>
@@ -690,6 +699,7 @@
 				
 			</div><!--/.contact-content-->
 		</div><!--/.contact-details-->
+		
 	</div><!--/.container-->
 
 </section><!--/.contact-->
