@@ -215,6 +215,14 @@ html,body{
 	background: rgba(115,112,216,1);
 }
 
+@media ( max-width:1300px ){
+    #imgiconoweb {
+		content: url( ../images/logo/unistudent_logo.svg );
+		width: 350px;
+		height: 350px;
+    }
+}
+
 /* sticky */
 .sticky{
 	background: rgba(115,112,216,1);
