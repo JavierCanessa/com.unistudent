@@ -204,7 +204,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin-top: 8px;
 	padding:0;
 }/* navbar-brand */
 
@@ -219,12 +219,12 @@ html,body{
 .sticky{
 	background: rgba(115,112,216,1);
 	padding: 10px 0px 0px;
-	height:80px;
+	height:96px;
 	color: #fff;
 }
 
 .sticky  .navbar-brand{
-	margin-top:20px;
+	margin-top:-8px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
