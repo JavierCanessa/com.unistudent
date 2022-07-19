@@ -386,10 +386,24 @@
 		<div class="contact-details">
 			<div class="section-header contact-head  text-center">
 				<h2>Contactanos</h2>
+				<br><br>
+				<div class="col-sm-12 col-xs-6">
+					
+							<div class="contact-icon">
+							<ul>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><!--/li-->
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li><!--/li-->
+							</ul><!--/ul-->
+							</div><!--/.contact-icon-->
+				</div><!--/.col-->
+
 				
 			</div><!--/.section-header-->
 			<div class="contact-content">
 
+				<br>
 
 				<div class="contact-form">
 					<form id="form" action="" method="post" enctype="text/plain">
@@ -651,7 +665,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="form-group">
-									<textarea class="form-control" rows="7" id="comment" placeholder="Mensaje" name="mensaje" ></textarea>
+									<textarea  class="form-control" rows="7" id="mensaje" placeholder="Mensaje" name="mensaje" ></textarea>
 								</div><!--/.form-group-->
 							</div><!--/.col-->
 						</div><!--/.row-->
@@ -673,24 +687,18 @@
 
 					$form.addEventListener('submit', handleSubmit)
 
-					function getHtmlText(html) {
-  					let doc = new DOMParser().parseFromString(html, 'text/html'),
-					text = doc.body.textContent || '';
-					// Limpiamos los espacios
-					text = text.trim().replace(/\s{2,}/g, ' ')
-					return text;
-					}
+					
 
 					function handleSubmit(event){
 						event.preventDefault()
 						const form = new FormData(this)
 						console.log(form.get('nombre'))
-						// var $mensajeWeb = document.querySelector('mensaje').nodeValue
-						// console.log( getHtmlText($mensajeWeb) )
-						//console.log( JSON.stringify($mensajeWeb)) 
-						//const $mensajeWebParseado = toString( $mensajeWeb )
-						$buttonMailTo.setAttribute('href',`mailto:unistudentasesoria@gmail.com?subject=Consulta desde la web&body=Nombre de cliente: ${form.get(`nombre`)} __ Email del cliente: ${form.get(`email`)} __ Pais del cliente: ${form.get(`pais`)} 
-						%0A%0A CONSULTA: ${form.get('mensaje')}` )
+
+						$buttonMailTo.setAttribute('href',`mailto:unistudentasesoria@gmail.com?subject=Consulta desde la web
+						&body=*Nombre de cliente: ${form.get('nombre')}  
+						*Email del cliente: ${form.get(`email`)}  
+						*Pais del cliente: ${form.get(`pais`)} 
+						%0A%0A CONSULTA:  ${form.get(`mensaje`).toString()}` )
 						$buttonMailTo.click()
 					}
 

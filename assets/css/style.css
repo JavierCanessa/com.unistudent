@@ -1490,9 +1490,9 @@ a:active.learn-btn{
 
 /*hm-foot-icon*/
 .contact-icon {
-    margin-top:19px;
+    margin-top:10px;
 }
-.contact-icon ul li{float:left;}
+.contact-icon ul li{display: inline-block;}
 .contact-icon ul li>a {
 	color: #fff;
 	margin-right:13px;
