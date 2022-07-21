@@ -92,7 +92,7 @@
 	.carousel-control {position:absolute;top: 65%;left:0%;}
 	.carousel-control.right {left:10%;}
 	.single-slide-item h2 {font-size: 45px;}
-	.single-slide-item {padding-top: 100px;}
+	.single-slide-item {padding-top: 220px;}
 	.we-do-comment p {padding: 0 0px;}
 	.single-team-box {width:270px;}
 	.single-we-do-box {max-width: 350px;margin: 0 auto;margin-bottom: 30px;}
@@ -189,3 +189,18 @@
 }/*max-width:320px*/
 
 
+/* Tocho */
+@media ( max-width:1200px ){
+    #imgiconoweb {
+		display: none;
+    }
+}
+
+
+
+@media ( max-width:1200px ){
+	.header-slider-area{
+		margin-bottom: -110px;
+	}
+
+}
