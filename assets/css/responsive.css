@@ -540,7 +540,7 @@
 /* Tocho */
 @media (max-width:1200px) {
 	#imgiconoweb {
-		display: none;
+		display: block;
 	}
 }
 
@@ -564,6 +564,7 @@
 @media (max-width:1200px) {
 	.contact-icon ul li>a {
 		margin-right: 30px;
+		text-displa
 	}
 
 }
@@ -571,5 +572,17 @@
 @media (max-width:1200px) {
 	.contact-form {
 		margin-top: -18px;
+	}
+}
+
+@media (max-width:1200px){
+	.navbar-brand{
+		margin-top: -40px;
+	}
+}
+
+@media (max-width:1200px){
+	#listaiconos li>a{
+		font-size: 0px;
 	}
 }
