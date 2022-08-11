@@ -75,18 +75,14 @@ img{	border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: circle;
+	/*el list-style era none por si presenta algun problema*/
 }
 ul li {
-	list-style: none;
+	list-style: circle;
 
 }
 
-/*Esto es para la lista de la seccion servicios*/
-.listservicios{
-	list-style-type: circle;
-	list-style-position: inside;
-}
 select,input,textarea{box-shadow:none;outline:0!important;}
 
 /*Esto es para la lista de la seccion servicios*/
