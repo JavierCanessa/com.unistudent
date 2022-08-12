@@ -538,11 +538,6 @@
 
 
 /* Tocho */
-@media (max-width:1200px) {
-	#imgiconoweb {
-		/*display: none;*/
-	}
-}
 
 @media (max-width:1200px) {
 	.header-slider-area {
@@ -564,7 +559,6 @@
 @media (max-width:1200px) {
 	.contact-icon ul li>a {
 		margin-right: 30px;
-		text-displa
 	}
 
 }
