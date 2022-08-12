@@ -577,12 +577,19 @@
 
 @media (max-width:1200px){
 	#listaiconos li>a{
-		font-size: 0px;
+		font-size: 25px;
+		margin-bottom: 5px;
 	}
 }
 
 @media (max-width:1200px){
 	.sticky  .navbar-brand{
 		margin-top:-73px;
+	}
+}
+
+@media (max-width:1200px){
+	.fluu{
+		display: none;
 	}
 }
