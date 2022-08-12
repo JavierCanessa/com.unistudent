@@ -586,3 +586,9 @@
 		font-size: 0px;
 	}
 }
+
+@media (max-width:1200px){
+	.sticky  .navbar-brand{
+		margin-top:-73px;
+	}
+}

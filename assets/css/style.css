@@ -212,7 +212,7 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 8px;
+	margin-top: 3px;
 	padding:0;
 }/* navbar-brand */
 
@@ -234,7 +234,7 @@ html,body{
 }
 
 .sticky  .navbar-brand{
-	margin-top:-8px;
+	margin-top:-14px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
@@ -247,7 +247,7 @@ html,body{
 .sticky .navbar-default .navbar-toggle:focus,
 .sticky .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #FDFEFE;
     margin-top: 15px;
 }/* sticky */
 
@@ -300,11 +300,11 @@ html,body{
 .navbar-default .navbar-toggle:focus,
  .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #FDFEFE;
     margin-top: 25px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
+    background-color: #FDFEFE;
 
 }/* navbar-toggle*/
 
