@@ -540,7 +540,7 @@
 /* Tocho */
 @media (max-width:1200px) {
 	#imgiconoweb {
-		display: none;
+		/*display: none;*/
 	}
 }
 
