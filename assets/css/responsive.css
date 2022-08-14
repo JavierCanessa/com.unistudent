@@ -594,3 +594,9 @@
 		display: none;
 	}
 }
+@media (max-width:1200px){
+	.about-us p{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
