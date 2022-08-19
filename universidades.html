@@ -18,10 +18,48 @@
 
 	<!--responsive.css-->
 	<link rel="stylesheet" href="assets/css/responsive.css">
-	
+
 </head>
 
 <body>
+	<link rel="stylesheet" href="assets/whatsappbotonflotante/whats.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="assets/whatsappbotonflotante/whats2.css">
+	<div class="nav-bottom">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<div class="popup-whatsapp fadeIn">
+			<div class="content-whatsapp -top"><button type="button" class="closePopup">
+					<i class="material-icons icon-font-color">close</i>
+				</button>
+
+				<p> <img src="assets/images/logo/unistudent_logo.svg" width="50"> Hola, ¿en que podemos ayudarle? </p>
+
+			</div>
+			<div class="content-whatsapp -bottom">
+				<input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+
+
+
+
+				<button class="send-msPopup" id="send-btn" type="button">
+					<i class="material-icons icon-font-color--black">send</i>
+				</button>
+
+			</div>
+		</div>
+		<button type="button" id="whats-openPopup" class="whatsapp-button">
+			<div class="float">
+				<i class="fa fa-whatsapp my-float"></i>
+			</div>
+		</button>
+		<div class="circle-anime"></div>
+	</div>
+	<script src="assets/whatsappbotonflotante/script2.js"></script>
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
 	<!--menu start-->
 	<section id="menu">
@@ -40,9 +78,9 @@
 						</button>
 						<a class="navbar-brand active" href="index.html">
 
-								<img id="imgiconoweb" style="width: 700px;height: 90px;"
-									src="assets/images/logo/unistudent_logo_blanco_102x23-01.svg" alt="logo">
-							
+							<img id="imgiconoweb" style="width: 700px;height: 90px;"
+								src="assets/images/logo/unistudent_logo_blanco_102x23-01.svg" alt="logo">
+
 							<!-- <img id="imgiconoweb" style="width: 700px;height: 90px;"
 								src="assets/images/logo/unistudent_logo_blanco_102x23-01.svg" alt="logo"> -->
 						</a>
@@ -70,8 +108,9 @@
 
 	<!--carousel-->
 	<!-- Carousel wrapper -->
-	<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel" style="margin-top:25px ;">
-		
+	<div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel"
+		style="margin-top:25px ;">
+
 		<!-- Inner -->
 		<div class="carousel-inner py-4">
 			<!-- Single item -->
@@ -80,17 +119,17 @@
 					<div class="row">
 						<div class="col-lg-4">
 							<div class="card">
-								<img style="height: 227px;width: 341px;"
-								src="assets/images/universidades/uba.jpg"
+								<img style="height: 227px;width: 341px;" src="assets/images/universidades/uba.jpg"
 									class="card-img-top" alt="Waterfall" />
 								<div class="card-body">
 									<h2 class="card-title">Universidad de Buenos Aires</h2>
 									<p class="card-text">
-										Es una universidad nacional pública 
-										argentina con sede en la ciudad de Buenos Aires. Fue fundada el 12 de agosto de 1821.
+										Es una universidad nacional pública
+										argentina con sede en la ciudad de Buenos Aires. Fue fundada el 12 de agosto de
+										1821.
 									</p>
-									<a href="https://es.wikipedia.org/wiki/Universidad_de_Buenos_Aires" target="_blank"
-									class="btn btn-primary saltotarjetas" >Conocer más</a>
+									<a href="https://www.uba.ar/#/" target="_blank"
+										class="btn btn-primary saltotarjetas">Conocer más</a>
 								</div>
 							</div>
 						</div>
@@ -98,137 +137,34 @@
 						<div class="col-lg-4 d-none d-lg-block">
 							<div class="card">
 								<img style="height: 227px;width: 341px;"
-								 src="assets/images/universidades/Tr8r5unb_400x400.jpg"
-									class="card-img-top" alt="Sunset Over the Sea" />
+									src="assets/images/universidades/Tr8r5unb_400x400.jpg" class="card-img-top"
+									alt="Sunset Over the Sea" />
 								<div class="card-body">
 									<h2 class="card-title">Universidad de palermo</h2>
 									<p class="card-text">
-										es una universidad privada argentina reconocida entre 
-										las mejores y más innovadoras de América Latina. 
-										Ofrece carreras en modalidad en línea, presencial 
+										Es una universidad privada argentina reconocida entre
+										las mejores y más innovadoras de América Latina.
+										Ofrece carreras en modalidad en línea, presencial
 										y combinada.
 									</p>
-									<a href="https://es.wikipedia.org/wiki/Universidad_de_Palermo" 
-									class="btn btn-primary saltotarjetas">Button</a>
+									<a href="https://www.palermo.edu/carreras/argentina/"
+										class="btn btn-primary saltotarjetas">Conoces más</a>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-lg-4 d-none d-lg-block">
 							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+								<img style="height: 227px;width: 341px;" src="assets/images/universidades/logouade2.jpeg"
 									class="card-img-top" alt="Sunset over the Sea" />
 								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
+									<h2 class="card-title">UADE</h2>
 									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
+										Es una universidad privada en Buenos Aires, Argentina.
+										Fue fundada en 1957 por la Cámara Argentina de Sociedades Anónimas.
 									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Single item -->
-			<div class="carousel-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-12">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
-									class="card-img-top" alt="Fissure in Sandstone" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 d-none d-lg-block">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
-									class="card-img-top" alt="Storm Clouds" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 d-none d-lg-block">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
-									class="card-img-top" alt="Hot Air Balloons" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Single item -->
-			<div class="carousel-item">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
-									class="card-img-top" alt="Peaks Against the Starry Sky" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
-									class="card-img-top" alt="Bridge Over Water" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-							<div class="card">
-								<img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
-									class="card-img-top" alt="Purbeck Heritage Coast" />
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										Some quick example text to build on the card title and make up the bulk
-										of the card's content.
-									</p>
-									<a href="#!" class="btn btn-primary">Button</a>
+									<a href="https://www.uade.edu.ar/" target="_blank" class="btn btn-primary">Conoces
+										más</a>
 								</div>
 							</div>
 						</div>
