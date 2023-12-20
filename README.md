@@ -1,7 +1,5 @@
 # Unistudent - Landing Page
 
-![Unistudent Logo](link-to-logo.png)
-
 ## Descripción del Proyecto
 
 Bienvenido a la Landing Page de Unistudent, la agencia estudiantil que ofrece información y servicios de calidad. Diseñada para una experiencia informativa y atractiva, destaca servicios relevantes. Incluye formulario de contacto y botón flotante de WhatsApp para comunicación directa.
