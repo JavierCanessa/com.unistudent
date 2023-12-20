@@ -1,8 +1,28 @@
-Unistudent - Landing Page
+# Unistudent - Landing Page
 
-Descripción del Proyecto
-Bienvenido a la Landing Page de Unistudent, una agencia estudiantil dedicada a proporcionar información y servicios a estudiantes. Esta página está diseñada para ofrecer una experiencia informativa y atractiva, destacando los contenidos más relevantes sobre los servicios que ofrece la agencia. Además, la página incluye un formulario de contacto para consultas generales y un botón flotante de WhatsApp para facilitar el contacto directo.
-Características Principales
-    • Contenidos Informativos: La Landing Page contiene información detallada sobre los servicios y la misión de Unistudent.
-    • Formulario de Contacto: Los usuarios pueden utilizar el formulario de contacto para realizar consultas directas y recibir respuestas rápidas.
-    • Botón Flotante de WhatsApp: Facilita la comunicación directa a través de WhatsApp, permitiendo a los usuarios ponerse en contacto de manera rápida y sencilla.
+![Unistudent Logo](link-to-logo.png)
+
+## Descripción del Proyecto
+
+Bienvenido a la Landing Page de Unistudent, la agencia estudiantil que ofrece información y servicios de calidad. Diseñada para una experiencia informativa y atractiva, destaca servicios relevantes. Incluye formulario de contacto y botón flotante de WhatsApp para comunicación directa.
+
+## Características Principales
+
+- **Contenidos Informativos:** Detalles sobre servicios y misión de Unistudent.
+- **Formulario de Contacto:** Consultas directas y respuestas rápidas.
+- **Botón Flotante de WhatsApp:** Comunicación directa y rápida.
+
+## Uso
+
+1. **Explora Contenidos:**
+   - Descubre servicios y detalles informativos.
+
+2. **Formulario de Contacto:**
+   - Consulta o solicita más información.
+
+3. **Contacto Directo vía WhatsApp:**
+   - Clic en el botón para comunicación rápida.
+
+---
+
+Explora, consulta y comunica fácilmente con Unistudent a través de su Landing Page. ¡Gracias por tu interés!
