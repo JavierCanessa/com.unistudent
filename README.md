@@ -1,1 +1,1 @@
-Landing Page hecha para Agencia Estudiantil llamada Unistudent.
+Landing Page hecha para Agencia Estudiantil llamada Unistudent, contiene diferentes contenidos sobre la informacion y servicios de la agencia, formulario de contacto y boton flotante de whatsapp para contacto directo.
